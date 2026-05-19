@@ -95,13 +95,6 @@ terresact ocr
 
 <img width="1920" height="1080" alt="Medical Report Bot - Google Chrome 5_19_2026 3_10_18 PM" src="https://github.com/user-attachments/assets/c1232698-d32f-4aa5-8c2a-a53191b9a105" />
 
-
-Example:
-
-```markdown
-![App Screenshot](screenshot.png)
-```
-
 ---
 
 # ⚠️ Disclaimer
@@ -169,4 +162,3 @@ If you found this project useful:
 
 ---
 
-> “Making medical reports easier to understand for everyone.”
