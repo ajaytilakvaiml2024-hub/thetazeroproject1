@@ -30,7 +30,7 @@ Make sure the following are installed:
 # ⚙️ Installation
 
 ```bash
-git clone https://github.com/ajaytilakvaiml2024-hub/thetazeroproject1.git
+git clone https://github.com/yourusername/medical-report-bot.git
 cd medical-report-bot
 pip install -r requirements.txt
 ```
@@ -51,19 +51,18 @@ After running the command, open the local URL shown in the terminal.
 
 ```bash
 medical-report-bot/
-
-* `app.py` - Main Streamlit application interface.
-* `modules/pipeline.py` - Handles report processing and AI workflow.
-* `modules/extractor.py` - Extracts text from PDFs and images.
-* `modules/summarizer.py` - Generates simplified medical summaries.
-* `modules/chatbot.py` - AI-powered medical Q&A assistant.
-* `modules/pdf_export.py` - Exports generated summaries as PDF reports.
-* `uploads/` - Stores uploaded medical reports temporarily.
-* `exports/` - Stores generated PDF summaries.
-* `requirements.txt` - List of required Python dependencies.
-* `README.md` - Project documentation and setup instructions.
-* `.env` - Stores API keys and environment variables.
-
+│── app.py                     # Main Streamlit app
+│── modules/
+│   ├── pipeline.py            # Document processing pipeline
+│   ├── extractor.py           # Extracts text from reports
+│   ├── summarizer.py          # Generates report summaries
+│   ├── chatbot.py             # AI-powered Q&A assistant
+│   └── pdf_export.py          # PDF export functionality
+│── uploads/                   # Temporary uploaded files
+│── exports/                   # Generated PDF summaries
+│── requirements.txt           # Project dependencies
+│── README.md                  # Project documentation
+│── .env                       # Environment variables
 ```
 
 ---
@@ -78,7 +77,7 @@ numpy
 Pillow
 pdfplumber
 python-dotenv
-groq
+google-generativeai
 ```
 
 ---
@@ -96,9 +95,15 @@ groq
 
 # 📸 Screenshot
 
-<img width="1920" height="1080" alt="Medical Report Bot - Google Chrome 5_19_2026 3_10_18 PM" src="https://github.com/user-attachments/assets/9f9ebd6f-953d-4803-b85c-93b01b829304" />
+*Add a screenshot or demo GIF here*
 
+Example:
+
+```markdown
+![App Screenshot](screenshot.png)
 ```
+
+---
 
 # ⚠️ Disclaimer
 
