@@ -100,8 +100,6 @@ groq
 
 ```
 
----
-
 # ⚠️ Disclaimer
 
 This project is for educational and informational purposes only.
