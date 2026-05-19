@@ -147,7 +147,7 @@ Feel free to use, modify, and distribute this project.
 
 * Python
 * Streamlit
-* Gemini AI
+* Groq AI
 * FPDF
 
 ---
