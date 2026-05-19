@@ -30,7 +30,7 @@ Make sure the following are installed:
 # ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/medical-report-bot.git
+git clone https://github.com/ajaytilakvaiml2024-hub/thetazeroproject1.git
 cd medical-report-bot
 pip install -r requirements.txt
 ```
@@ -47,23 +47,20 @@ After running the command, open the local URL shown in the terminal.
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```bash
-medical-report-bot/
-│── app.py                     # Main Streamlit app
-│── modules/
-│   ├── pipeline.py            # Document processing pipeline
-│   ├── extractor.py           # Extracts text from reports
-│   ├── summarizer.py          # Generates report summaries
-│   ├── chatbot.py             # AI-powered Q&A assistant
-│   └── pdf_export.py          # PDF export functionality
-│── uploads/                   # Temporary uploaded files
-│── exports/                   # Generated PDF summaries
-│── requirements.txt           # Project dependencies
-│── README.md                  # Project documentation
-│── .env                       # Environment variables
-```
+* `app.py` - Main Streamlit application interface.
+* `modules/pipeline.py` - Handles report processing and AI workflow.
+* `modules/extractor.py` - Extracts text from PDFs and images.
+* `modules/summarizer.py` - Generates simplified medical summaries.
+* `modules/chatbot.py` - AI-powered medical Q&A assistant.
+* `modules/pdf_export.py` - Exports generated summaries as PDF reports.
+* `uploads/` - Stores uploaded medical reports temporarily.
+* `exports/` - Stores generated PDF summaries.
+* `requirements.txt` - List of required Python dependencies.
+* `README.md` - Project documentation and setup instructions.
+* `.env` - Stores API keys and environment variables.
+
 
 ---
 
@@ -77,7 +74,8 @@ numpy
 Pillow
 pdfplumber
 python-dotenv
-google-generativeai
+groq
+terresact ocr
 ```
 
 ---
@@ -95,7 +93,8 @@ google-generativeai
 
 # 📸 Screenshot
 
-*Add a screenshot or demo GIF here*
+<img width="1920" height="1080" alt="Medical Report Bot - Google Chrome 5_19_2026 3_10_18 PM" src="https://github.com/user-attachments/assets/c1232698-d32f-4aa5-8c2a-a53191b9a105" />
+
 
 Example:
 
